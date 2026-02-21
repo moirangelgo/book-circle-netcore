@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BookCircle.API/BookCircle.API.csproj" />
+    <Project Path="src/BookCircle.Application/BookCircle.Application.csproj" />
+    <Project Path="src/BookCircle.Domain/BookCircle.Domain.csproj" />
+    <Project Path="src/BookCircle.Infrastructure/BookCircle.Infrastructure.csproj" />
+  </Folder>
+</Solution>

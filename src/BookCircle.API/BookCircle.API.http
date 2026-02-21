@@ -1,0 +1,6 @@
+@BookCircle.API_HostAddress = http://localhost:5054
+
+GET {{BookCircle.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
