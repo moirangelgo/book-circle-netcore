@@ -40,6 +40,12 @@ public class BooksController(IBookService bookService) : ControllerBase
     public async Task<IActionResult> GetVotes(int clubId, int bookId)
         => Ok(await bookService.GetVotesAsync(clubId, bookId));
 
+    /// <summary>Post book votes</summary>
+    [HttpPost("{bookId:int}/votes")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public async Task<IActionResult> UpdateVotes(int clubId, int bookId)
+        => Ok(await bookService.UpdateVotesAsync(clubId, bookId));
+
     /// <summary>Delete / reset book votes</summary>
     [HttpDelete("{bookId:int}/votes")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]

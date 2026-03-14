@@ -13,8 +13,11 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration config)
     {
+        //services.AddDbContext<AppDbContext>(opts =>
+        //    opts.UseSqlServer(config.GetConnectionString("DefaultConnection")));
+
         services.AddDbContext<AppDbContext>(opts =>
-            opts.UseSqlServer(config.GetConnectionString("DefaultConnection")));
+            opts.UseNpgsql(config.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("BookCircle.API")));
 
         // Repositories
         services.AddScoped<IUserRepository, UserRepository>();

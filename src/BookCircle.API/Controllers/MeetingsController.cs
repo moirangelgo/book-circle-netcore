@@ -47,7 +47,13 @@ public class MeetingsController(IMeetingService meetingService) : ControllerBase
     [ProducesResponseType(StatusCodes.Status201Created)]
     public async Task<IActionResult> ConfirmAttendance(int clubId, int meetingId, [FromBody] MeetingAttendanceCreateDto dto)
     {
-        await meetingService.ConfirmAttendanceAsync(clubId, meetingId, dto);
-        return StatusCode(StatusCodes.Status201Created);
+        try
+        {
+            await meetingService.ConfirmAttendanceAsync(clubId, meetingId, dto);
+            return StatusCode(StatusCodes.Status201Created);
+        }
+        catch (Exception ex) {
+            return BadRequest(new { message = ex.Message });
+        }
     }
 }

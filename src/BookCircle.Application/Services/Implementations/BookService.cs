@@ -36,6 +36,16 @@ public class BookService(IBookRepository repo, IMapper mapper) : IBookService
         return new { bookId = book.Id, votes = book.Votes };
     }
 
+    public async Task<object> UpdateVotesAsync(int clubId, int bookId)
+    {
+        var book = await repo.GetByIdAsync(clubId, bookId)
+            ?? throw new KeyNotFoundException($"Book {bookId} not found.");
+
+        book.Votes = book.Votes + 1;
+        var updated = await repo.UpdateAsync(book);
+        return mapper.Map<BookOutDto>(updated);
+    }
+
     public async Task DeleteVotesAsync(int clubId, int bookId)
     {
         var book = await repo.GetByIdAsync(clubId, bookId)

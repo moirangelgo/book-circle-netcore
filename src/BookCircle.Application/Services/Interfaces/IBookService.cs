@@ -8,6 +8,7 @@ public interface IBookService
     Task<BookOutDto> GetByIdAsync(int clubId, int bookId);
     Task<BookOutDto> CreateAsync(int clubId, BookCreateDto dto);
     Task<object> GetVotesAsync(int clubId, int bookId);
+    Task<object> UpdateVotesAsync(int clubId, int bookId);    
     Task DeleteVotesAsync(int clubId, int bookId);
     Task<object> GetProgressAsync(int clubId, int bookId);
     Task<BookOutDto> UpdateProgressAsync(int clubId, int bookId, int progress);
