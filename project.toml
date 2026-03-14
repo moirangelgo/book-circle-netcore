@@ -1,0 +1,3 @@
+[[build.env]]
+  name = "GOOGLE_BUILDABLE"
+  value = "./src/BookCircle.API/BookCircle.API.csproj"
