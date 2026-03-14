@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7F61A4E-9492-F9ED-5F45-5A4A5296491E}|src\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj|c:\\users\\mrangel\\apps\\book-circle-netcore-api\\src\\bookcircle.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7F61A4E-9492-F9ED-5F45-5A4A5296491E}|src\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj|solutionrelative:src\\bookcircle.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5455B9D9-26E0-8331-AAD8-7C48E15CA0B9}|src\\BookCircle.API\\BookCircle.API.csproj|c:\\users\\mrangel\\apps\\book-circle-netcore-api\\src\\bookcircle.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5455B9D9-26E0-8331-AAD8-7C48E15CA0B9}|src\\BookCircle.API\\BookCircle.API.csproj|solutionrelative:src\\bookcircle.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5455B9D9-26E0-8331-AAD8-7C48E15CA0B9}|src\\BookCircle.API\\BookCircle.API.csproj|c:\\users\\mrangel\\apps\\book-circle-netcore-api\\src\\bookcircle.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5455B9D9-26E0-8331-AAD8-7C48E15CA0B9}|src\\BookCircle.API\\BookCircle.API.csproj|solutionrelative:src\\bookcircle.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5455B9D9-26E0-8331-AAD8-7C48E15CA0B9}|src\\BookCircle.API\\BookCircle.API.csproj|c:\\users\\mrangel\\apps\\book-circle-netcore-api\\src\\bookcircle.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5455B9D9-26E0-8331-AAD8-7C48E15CA0B9}|src\\BookCircle.API\\BookCircle.API.csproj|solutionrelative:src\\bookcircle.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\project.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|Elementos de la soluci\u00F3n{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}|solutionrelative:project.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7F61A4E-9492-F9ED-5F45-5A4A5296491E}|src\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj|c:\\users\\mrangel\\apps\\book-circle-netcore-api\\src\\bookcircle.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7F61A4E-9492-F9ED-5F45-5A4A5296491E}|src\\BookCircle.Infrastructure\\BookCircle.Infrastructure.csproj|solutionrelative:src\\bookcircle.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C2D19B7-7D87-9C38-19C8-2F40267636EC}|src\\BookCircle.Application\\BookCircle.Application.csproj|c:\\users\\mrangel\\apps\\book-circle-netcore-api\\src\\bookcircle.application\\services\\implementations\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,6 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\src\\BookCircle.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\BookCircle.API\\Program.cs",
+              "ToolTip": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\src\\BookCircle.API\\Program.cs",
+              "RelativeToolTip": "src\\BookCircle.API\\Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T22:20:37.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\src\\BookCircle.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\BookCircle.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\src\\BookCircle.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\BookCircle.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-14T22:19:54.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "project.toml",
+              "DocumentMoniker": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\project.toml",
+              "RelativeDocumentMoniker": "project.toml",
+              "ToolTip": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\project.toml",
+              "RelativeToolTip": "project.toml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-14T22:08:56.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\src\\BookCircle.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\BookCircle.Infrastructure\\DependencyInjection.cs",
@@ -43,20 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\src\\BookCircle.API\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\BookCircle.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\src\\BookCircle.API\\appsettings.json",
-              "RelativeToolTip": "src\\BookCircle.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-13T23:15:45.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\mrangel\\apps\\book-circle-netcore-api\\src\\BookCircle.Application\\Services\\Implementations\\BookService.cs",
               "RelativeDocumentMoniker": "src\\BookCircle.Application\\Services\\Implementations\\BookService.cs",

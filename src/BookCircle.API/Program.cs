@@ -83,8 +83,10 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 // ── Build ──────────────────────────────────────────────────────────────────
-var app = builder.Build();
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
+var app = builder.Build();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 if (app.Environment.IsDevelopment())
